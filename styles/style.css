@@ -1,0 +1,168 @@
+/*
+#FDC02A
+#3C3C3C
+*/
+
+body {
+    margin-right: 0;
+}
+
+::-webkit-input-placeholder {
+    /* /Edge/ */
+    color: #dadada;
+}
+
+::-ms-input-placeholder {
+    /* /Internet Explore 10-11/ */
+    color: #dadada;
+}
+
+::placeholder {
+    color: #dadada;
+}
+
+.contform {
+    margin-right: 0;
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+}
+
+.faleconosco {
+    display: flex;
+    justify-content: center;
+    align-self: center;
+    margin: 0;
+}
+
+.contatos {
+    text-align: initial;
+    justify-self: end;
+    align-self: center;
+    margin: 0;
+    margin-right: 2rem;
+    padding-left: 5rem;
+}
+
+img {
+    width: 1.5rem;
+    height: 1.5rem;
+    margin-right: 1rem;
+}
+
+small {
+    font-weight: 100;
+    color: #949494;
+}
+
+.yellow {
+    color: #fdc02a;
+}
+
+span {
+    color: #fdc02a;
+}
+
+.row {
+    display: flex;
+    align-items: center;
+}
+
+.sac {
+    /* padding-right: 100px; */
+    background-color: #3c3c3c;
+    border-radius: 20px 0 0 20px;
+    padding-left: 50px;
+}
+
+.sac h1 {
+    margin-left: 15px;
+    color: #dadada;
+}
+
+.faleconosco h1::after, .contatos h1::after, .sac h1::after {
+    content: '';
+    height: .2rem;
+    background-color: #fdc02a;
+    display: block;
+}
+
+.faleconosco h1::after {
+    width: 45%;
+    margin: .8rem auto;
+}
+
+.contatos h1::after {
+    width: 70%;
+    margin: 1rem 0;
+}
+
+.sac h1::after {
+    width: 15%;
+    margin: 1rem 17rem;
+}
+
+.row-name {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    padding: .5rem 1rem;
+    padding-left: 0;
+}
+
+.row-tel {
+    display: grid;
+    grid-template-columns: 2fr 2fr 1fr;
+    padding: .5rem 1rem;
+    padding-left: 0;
+}
+
+.row-high {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    height: 120px;
+}
+
+.row-btn {
+    display: grid;
+    grid-template-columns: 4fr 1fr;
+    padding: .5rem 1rem;
+    padding-left: 0;
+    justify-items: center;
+}
+
+.formSac input[type=tel], input[type=text], input[type=email] {
+    background-color: transparent;
+    border: 1px solid #dadada;
+    border-radius: 13px;
+    padding: 1rem 1rem;
+    margin: 15px 0px 5px 15px;
+}
+
+#txtEmail, #txtTelefone {
+    margin-right: 0;
+}
+
+.formSac textarea {
+    background-color: transparent;
+    border: 1px solid #dadada;
+    border-radius: 13px;
+    padding: 0.5rem 1rem;
+    margin: 15px 15px 5px 15px;
+}
+
+.formSac input[type=submit] {
+    background-color: #fdc02a;
+    color: #ffffff;
+    border: 1px solid#3c3c3c;
+    border-radius: 13px;
+    padding: 0.5rem 1rem;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    width: 200px;
+    font-size: 1.25em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+#btnEnviar:hover {
+    background-color: #ffce53;
+}
